@@ -4,11 +4,14 @@ on:
     - cron:  '40 7 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   rebase:
     runs-on: ubuntu-latest
     steps:
-      - uses: peter-evans/rebase@v3
+      - uses: peter-evans/rebase@87c3fd9344792e51ab1c7494c3369620c84ed852 # v3.1.0
         with:
           token: ${{ secrets.GH_PAT }} 
           exclude-labels: |

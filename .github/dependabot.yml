@@ -12,3 +12,83 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_NETFramework/OSLC4Net.Client.Jazz
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_NETFramework/OSLC4Net.Client.Samples
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_NETFramework/OSLC4Net.StockQuoteSample
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Examples/Oslc4NetExamples.Client
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/OSLC4Net.ChangeManagement
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/OSLC4Net.Client
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/OSLC4Net.Core.JsonProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/OSLC4Net.Core.Query
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/OSLC4Net.Core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Tests/OSLC4Net.ChangeManagementTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Tests/OSLC4Net.Client.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Tests/OSLC4Net.Core.DotNetRdfProviderTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/data
+    schedule:
+      interval: daily
